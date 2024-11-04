@@ -19,6 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
  
+        
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
         with:
