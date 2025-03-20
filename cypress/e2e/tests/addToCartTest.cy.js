@@ -13,11 +13,5 @@ describe(' test automation', () => {
         homePageObj.searchProduct(testData.product.productName)
         homePageObj.addToCart()
         homePageObj.verifySucessMessage().should('contain', testData.message.successMessage).and('contain', testData.product.productName);
-
-
-
-
-
-
     })
 })
